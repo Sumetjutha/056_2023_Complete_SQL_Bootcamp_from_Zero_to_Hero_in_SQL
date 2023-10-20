@@ -20,3 +20,49 @@ WHERE Country = 'Brazil';
 SELECT City
 FROM Customer
 WHERE Country IN ('Brazil','Canada');
+
+SELECT *
+FROM Customer
+ORDER BY Country ASC, FirstName DESC;
+
+SELECT MAX(SupportRepId) AS Max_Sub
+FROM Customer;
+
+SELECT AVG(SupportRepId) AS AVG_Sub
+FROM Customer;
+
+SELECT SUM(SupportRepId) AS SUM_Sub
+FROM Customer;
+
+SELECT *
+FROM Customer
+WHERE FirstName Like 'A%';
+
+SELECT *
+FROM Customer
+WHERE FirstName Like '_S%';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
